@@ -1,0 +1,16 @@
+{
+  "name": "projects_postgres_Express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Syhwh/projects_postgres_Express.git",
+  "author": "Shymmy Garcia <shymmy.garcia-ext@block.one>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.4.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.5"
+  }
+}
