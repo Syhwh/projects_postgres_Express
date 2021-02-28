@@ -3,12 +3,12 @@ const { getUsers, getUser, deleteUser, insertUser } = require('../controllers/us
 const authentication = require('../utils/verifyToken')
 
 
-const router = Router()
+const userRoutes = Router()
 
-router.get('/users', authentication, getUsers)
-router.get('/users/id', getUser)
+userRoutes.get('/users', authentication, getUsers)
+userRoutes.get('/users/id', getUser)
 
-router.post('/users', insertUser)
-router.delete('/users/id', deleteUser)
+userRoutes.post('/users', insertUser)
+userRoutes.delete('/users/id', deleteUser)
 
-module.exports = { router }
+module.exports = { userRoutes }
